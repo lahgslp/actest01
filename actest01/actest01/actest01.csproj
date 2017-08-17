@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6D6A122A-75B2-490F-BBC6-ACC85B1667D3}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>actest01</RootNamespace>
+    <AssemblyName>actest01</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CCTrader.Common\CCTrader.Common.csproj">
+      <Project>{5ababf2c-6bca-46a2-9015-c3af1acad890}</Project>
+      <Name>CCTrader.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CCTrader.Exchanger.BitsoExchanger\CCTrader.Exchanger.BitsoExchanger.csproj">
+      <Project>{d083a450-dbe9-4e2f-971b-e1d1a3402315}</Project>
+      <Name>CCTrader.Exchanger.Bitso</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CCTrader.Exchanger.TestExchanger\CCTrader.Exchanger.TestExchanger.csproj">
+      <Project>{2b17afd2-7706-4ff8-b315-8544da9488e5}</Project>
+      <Name>CCTrader.Exchanger.TestExchanger</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CCTrader.LocalWallet.SqlWallet\CCTrader.LocalWallet.SqlWallet.csproj">
+      <Project>{58e2f736-86ee-4d8f-b071-1e581f9fa73c}</Project>
+      <Name>CCTrader.LocalWallet.SqlWallet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CCTrader.LocalWallet.TestWallet\CCTrader.LocalWallet.TestWallet.csproj">
+      <Project>{e8cd1aca-00d3-4794-8161-0601f973cc1e}</Project>
+      <Name>CCTrader.LocalWallet.TestWallet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CCTrader.TradingManager.ConservativeManager\CCTrader.TradingManager.ConservativeManager.csproj">
+      <Project>{a5581789-3527-478d-98f0-506a0359d57d}</Project>
+      <Name>CCTrader.TradingManager.ConservativeManager</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

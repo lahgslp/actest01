@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "actest01", "actest01\actest01.csproj", "{6D6A122A-75B2-490F-BBC6-ACC85B1667D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCTrader.Common", "CCTrader.Common\CCTrader.Common.csproj", "{5ABABF2C-6BCA-46A2-9015-C3AF1ACAD890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCTrader.Exchanger.BitsoExchanger", "CCTrader.Exchanger.BitsoExchanger\CCTrader.Exchanger.BitsoExchanger.csproj", "{D083A450-DBE9-4E2F-971B-E1D1A3402315}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCTrader.TradingManager.ConservativeManager", "CCTrader.TradingManager.ConservativeManager\CCTrader.TradingManager.ConservativeManager.csproj", "{A5581789-3527-478D-98F0-506A0359D57D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCTrader.Exchanger.TestExchanger", "CCTrader.Exchanger.TestExchanger\CCTrader.Exchanger.TestExchanger.csproj", "{2B17AFD2-7706-4FF8-B315-8544DA9488E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCTrader.LocalWallet.SqlWallet", "CCTrader.LocalWallet.SqlWallet\CCTrader.LocalWallet.SqlWallet.csproj", "{58E2F736-86EE-4D8F-B071-1E581F9FA73C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCTrader.LocalWallet.TestWallet", "CCTrader.LocalWallet.TestWallet\CCTrader.LocalWallet.TestWallet.csproj", "{E8CD1ACA-00D3-4794-8161-0601F973CC1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D6A122A-75B2-490F-BBC6-ACC85B1667D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D6A122A-75B2-490F-BBC6-ACC85B1667D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D6A122A-75B2-490F-BBC6-ACC85B1667D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D6A122A-75B2-490F-BBC6-ACC85B1667D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ABABF2C-6BCA-46A2-9015-C3AF1ACAD890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ABABF2C-6BCA-46A2-9015-C3AF1ACAD890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ABABF2C-6BCA-46A2-9015-C3AF1ACAD890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ABABF2C-6BCA-46A2-9015-C3AF1ACAD890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D083A450-DBE9-4E2F-971B-E1D1A3402315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D083A450-DBE9-4E2F-971B-E1D1A3402315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D083A450-DBE9-4E2F-971B-E1D1A3402315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D083A450-DBE9-4E2F-971B-E1D1A3402315}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5581789-3527-478D-98F0-506A0359D57D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5581789-3527-478D-98F0-506A0359D57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5581789-3527-478D-98F0-506A0359D57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5581789-3527-478D-98F0-506A0359D57D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B17AFD2-7706-4FF8-B315-8544DA9488E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B17AFD2-7706-4FF8-B315-8544DA9488E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B17AFD2-7706-4FF8-B315-8544DA9488E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B17AFD2-7706-4FF8-B315-8544DA9488E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58E2F736-86EE-4D8F-B071-1E581F9FA73C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E2F736-86EE-4D8F-B071-1E581F9FA73C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E2F736-86EE-4D8F-B071-1E581F9FA73C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E2F736-86EE-4D8F-B071-1E581F9FA73C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8CD1ACA-00D3-4794-8161-0601F973CC1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8CD1ACA-00D3-4794-8161-0601F973CC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8CD1ACA-00D3-4794-8161-0601F973CC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8CD1ACA-00D3-4794-8161-0601F973CC1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
