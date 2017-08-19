@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCTrader.LocalWallet.SqlWal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCTrader.LocalWallet.TestWallet", "CCTrader.LocalWallet.TestWallet\CCTrader.LocalWallet.TestWallet.csproj", "{E8CD1ACA-00D3-4794-8161-0601F973CC1E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinBaseHistoryLoader", "CoinBaseHistoryLoader\CoinBaseHistoryLoader.csproj", "{7B949DAD-D3A5-43EB-B4B4-DF28DE4A12D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{E8CD1ACA-00D3-4794-8161-0601F973CC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8CD1ACA-00D3-4794-8161-0601F973CC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8CD1ACA-00D3-4794-8161-0601F973CC1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B949DAD-D3A5-43EB-B4B4-DF28DE4A12D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B949DAD-D3A5-43EB-B4B4-DF28DE4A12D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B949DAD-D3A5-43EB-B4B4-DF28DE4A12D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B949DAD-D3A5-43EB-B4B4-DF28DE4A12D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

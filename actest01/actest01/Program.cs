@@ -15,12 +15,19 @@ namespace actest01
         static void Main(string[] args)
         {
             IExchanger exchanger = new TestExchanger();
-            ILocalWallet wallet = new TestWallet();
+            /*
+            //Testing TestExchanger
+            for (int i = 0; i < 10000; i++)
+            {
+                Console.WriteLine("Value of bitcoin is: " + exchanger.GetExchangeRate(Currency.USD, Currency.BTC));
+            }*/
+            Console.ReadKey();
+            /*ILocalWallet wallet = new TestWallet();
             IManager cManager = new ConservativeManager(wallet, exchanger);
             for (int i = 0; i < 1000; i++)
             {
                 cManager.Execute();
-            }
+            }*/
         }
     }
 }

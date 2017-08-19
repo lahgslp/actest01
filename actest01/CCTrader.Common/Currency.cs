@@ -8,6 +8,7 @@ namespace CCTrader.Common
 {
     public enum Currency
     {
+        USD,
         MXN,
         BTC
     }
